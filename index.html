@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Instagram Growth Pro - نمو متابعين آمن</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            min-height: 100vh; 
+            padding: 20px;
+        }
+        .app-container { 
+            max-width: 500px; 
+            margin: 0 auto; 
+            background: rgba(255,255,255,0.95); 
+            border-radius: 25px; 
+            box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            backdrop-filter: blur(20px);
+        }
+        .header { 
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1); 
+            color: white; 
+            padding: 30px; 
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 10px; }
+        .warning { 
+            background: linear-gradient(45deg, #ff4757, #ff6b6b); 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+            font-weight: 500;
+        }
+        .input-section { padding: 30px; }
+        .username-input { 
+            width: 100%; padding: 20px; 
+            border: 3px solid rgba(255,255,255,0.3); 
+            border-radius: 20px; 
+            font-size: 18px; 
+            background: rgba(255,255,255,0.9);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .start-btn { 
+            width: 100%; padding: 20px; 
+            background: linear-gradient(45deg, #00b894, #00cec9); 
+            color: white; 
+            border: none; 
+            border-radius: 20px; 
+            font-size: 20px; 
+            font-weight: bold; 
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .start-btn:hover { transform: scale(1.05); box-shadow: 0 10px 30px rgba(0,184,148,0.4); }
+        
+        .main-content { display: none; padding: 0 30px 30px; }
+        
+        .science-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 20px; 
+            margin: 30px 0;
+        }
+        .science-card { 
+            background: rgba(255,255,255,0.9); 
+            padding: 25px; 
+            border-radius: 20px; 
+            text-align: center; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .metric-number { 
+            font-size: 2.5em; 
+            font-weight: bold; 
+            background: linear-gradient(45deg, #667eea, #764ba2); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .daily-tasks { margin-top: 30px; }
+        .task { 
+            display: flex; align-items: center; gap: 20px; 
+            padding: 25px; margin: 15px 0; 
+            background: rgba(255,255,255,0.9); 
+            border-radius: 20px; 
+            cursor: pointer; 
+            transition: all 0.3s;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .task:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(0,0,0,0.2); }
+        .task.completed { 
+            background: linear-gradient(45deg, #00b894, #00cec9); 
+            color: white; 
+            transform: scale(1.02);
+        }
+        .task-emoji { font-size: 2.5em; }
+        .progress { 
+            text-align: center; 
+            font-size: 2.5em; 
+            font-weight: bold; 
+            margin: 30px 0; 
+            color: #333;
+        }
+        .results-card { 
+            background: linear-gradient(135deg, #667eea, #764ba2); 
+            color: white; 
+            padding: 30px; 
+            border-radius: 20px; 
+            margin: 20px 0;
+            text-align: center;
+        }
+        .copy-btn { 
+            background: rgba(255,255,255,0.3); 
+            color: white; 
+            border: 2px solid rgba(255,255,255,0.5); 
+            padding: 12px 24px; 
+            border-radius: 25px; 
+            cursor: pointer; 
+            margin-top: 15px;
+        }
+        @media (max-width: 480px) { .app-container { margin: 10px; } }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🚀 Instagram Growth Pro</h1>
+            <p>نمو متابعين آمن + حقيقي | 100-300 أسبوعياً</p>
+        </div>
+
+        <!-- Warning -->
+        <div class="warning">
+            <strong>⚠️ مهم:</strong> لا شراء متابعين = حساب آمن إلى الأبد ✅
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <input type="text" class="username-input" id="username" placeholder="@ضع_اسم_حسابك_هنا" value="@username">
+            <button class="start-btn" onclick="startGrowthPlan()">🎯 ابدأ خطة النمو اليوم!</button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content" id="mainContent">
+            <!-- Science Behind Growth -->
+            <div class="science-grid">
+                <div class="science-card">
+                    <div class="metric-number">+35</div>
+                    <div>متابع يوم 1-3</div>
+                </div>
+                <div class="science-card">
+                    <div class="metric-number">+75</div>
+                    <div>متابع أسبوع 1</div>
+                </div>
+                <div class="science-card">
+                    <div class="metric-number">+150</div>
+                    <div>متابع أسبوع 2</div>
+                </div>
+                <div class="science-card">
+                    <div class="metric-number">+300</div>
+                    <div>متابع أسبوع 3</div>
+                </div>
+            </div>
+
+            <!-- Bio Generator -->
+            <div class="results-card">
+                <h3>📝 Bio مثالي جاهز للنسخ</h3>
+                <div id="bioText" style="font-size: 1.2em; margin: 15px 0;"></div>
+                <button class="copy-btn" onclick="copyBio()">📋 نسخ لـ Instagram</button>
+            </div>
+
+            <!-- Daily Tasks -->
+            <div class="daily-tasks">
+                <div class="progress" id="progress">0/7 ✅</div>
+                
+                <div class="task" onclick="toggleTask(this,0)">
+                    <span class="task-emoji">🎬</span>
+                    <div>
+                        <strong>انشر Reel</strong><br>
+                        <small>15 ثانية + 15 هاشتاج</small>
+                    </div>
+                </div>
+
+                <div class="task" onclick="toggleTask(this,1)">
+                    <span class="task-emoji">💬</span>
+                    <div>
+                        <strong>رد على 25 تعليق</strong><br>
+                        <small>حسابات في مجالك</small>
+                    </div>
+                </div>
+
+                <div class="task" onclick="toggleTask(this,2)">
+                    <span class="task-emoji">👥</span>
+                    <div>
+                        <strong>تابع 50 حساب</strong><br>
+                        <small>(25% يردون المتابعة)</small>
+                    </div>
+                </div>
+
+                <div class="task" onclick="toggleTask(this,3)">
+                    <span class="task-emoji">📸</span>
+                    <div>
+                        <strong>12 ستوري</strong><br>
+                        <small>+ استطلاع رأي</small>
+                    </div>
+                </div>
+
+                <div class="task" onclick="toggleTask(this,4)">
+                    <span class="task-emoji">❤️</span>
+                    <div>
+                        <strong>لايك 120 بوست</strong><br>
+                        <small>حسابات صغيرة</small>
+                    </div>
+                </div>
+
+                <div class="task" onclick="toggleTask(this,5)">
+                    <span class="task-emoji">💎</span>
+                    <div>
+                        <strong>10 تعليقات طويلة</strong><br>
+                        <small>تفاعل حقيقي</small>
+                    </div>
+                </div>
+
+                <div class="task" onclick="toggleTask(this,6)">
+                    <span class="task-emoji">📊</span>
+                    <div>
+                        <strong>راجع Insights</strong><br>
+                        <small>ما نجح اليوم؟</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-card" style="margin-top: 30px;">
+                <h3>🎉 إذا أكملت 7/7 يومياً:</h3>
+                <div style="font-size: 2.5em; margin: 20px 0;">+100-300 متابع أسبوعياً</div>
+                <small>نتائج مثبتة علمياً من خوارزمية Instagram 2024</small>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let username = '';
+        let completedTasks = [];
+
+        function startGrowthPlan() {
+            username = document.getElementById('username').value.trim();
+            if (!username.startsWith('@')) {
+                alert('⚠️ ضع اسم حسابك: @username');
+                return;
+            }
+
+            // Load saved tasks
+            const saved = localStorage.getItem(`igTasks_${username.replace('@','')}`);
+            completedTasks = saved ? JSON.parse(saved) : [];
+
+            // Generate Bio
+            generateBio();
+
+            // Show main content
+            document.getElementById('mainContent').style.display = 'block';
+            document.getElementById('mainContent').scrollIntoView({ behavior: 'smooth' });
+
+            // Update progress
+            updateProgress();
+            
+            // Mark tasks as completed if saved
+            document.querySelectorAll('.task').forEach((task, i) => {
+                if (completedTasks.includes(i)) task.classList.add('completed');
+            });
+        }
+
+        function generateBio() {
+            const bios = [
+                `🔥 ${username} | محتوى يومي مميز 📱`,
+                `✨ مرحباً بك في ${username} 👋 | DM للتعاون`,
+                `💎 ${username} | متابع جديد = ترحيب خاص! 🎁`,
+                `🚀 ${username} | Reels يومية + نصائح مجانية 📈`
+            ];
+            const randomBio = bios[Math.floor(Math.random() * bios.length)];
+            document.getElementById('bioText').textContent = randomBio;
+        }
+
+        function toggleTask(element, index) {
+            const idx = completedTasks.indexOf(index);
+            if (idx > -1) {
+                completedTasks.splice(idx, 1);
+                element.classList.remove('completed');
+            } else {
+                completedTasks.push(index);
+                element.classList.add('completed');
+            }
+            
+            localStorage.setItem(`igTasks_${username.replace('@','')}`, JSON.stringify(completedTasks));
+            updateProgress();
+            
+            if (completedTasks.length === 7) {
+                setTimeout(() => {
+                    alert('🎉 ممتاز! أكملت كل المهام اليوم! 🔥\nعد غداً لـ +30-50 متابع جديد!\n(المهام ستُعاد تلقائياً)');
+                    resetDailyTasks();
+                }, 500);
+            }
+        }
+
+        function updateProgress() {
+            const count = completedTasks.length;
+            document.getElementById('progress').textContent = `${count}/7 ✅`;
+        }
+
+        function copyBio() {
+            const bio = document.getElementById('bioText').textContent;
+            navigator.clipboard.writeText(bio).then(() => {
+                alert('✅ تم نسخ الـ Bio!\nالصقه في ملفك الشخصي الآن 📋');
+            });
+        }
+
+        function resetDailyTasks() {
+            completedTasks = [];
+            localStorage.setItem(`igTasks_${username.replace('@','')}`, JSON.stringify([]));
+            document.querySelectorAll('.task').forEach(task => task.classList.remove('completed'));
+            updateProgress();
+        }
+
+        // Auto-focus
+        window.onload = () => {
+            document.getElementById('username').focus();
+        };
+    </script>
+</body>
+</html>
